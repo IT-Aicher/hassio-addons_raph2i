@@ -41,3 +41,7 @@ echo "datadir = $(bashio::config 'server.datadir')" >> "${config}"
 bashio::log.info "Starting SnapServer..."
 
 /usr/bin/snapserver -c /etc/snapserver.conf
+
+
+#DEBUG
+cat /etc/snapserver.conf
